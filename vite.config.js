@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: './',
+  preview: {
+    allowedHosts: ['team-task-manager-production-a6507.up.railway.app']
+  }
 })
